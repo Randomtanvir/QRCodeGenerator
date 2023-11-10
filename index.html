@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRcodeGeneratoreWithTailwind</title>
+    
+  <link rel="stylesheet" href="./assets/index-1ff3d51c.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="
+            flex
+            items-center
+            justify-center
+            w-full
+            h-screen
+            bg-skin-bg
+            font-serif
+            ">
+    <div class="
+                bg-skin-primary
+                p-8
+                w-[350px]
+                sm:w-[400px]
+                rounded-[8px]
+                ">
+        <div class="
+                    qr-header
+
+                    ">
+            <h1 class=" 
+                    text-skin-textColor
+                    text-xl
+                    text-center
+                    mb-6
+                    uppercase
+                    
+                            " >
+            Generate QR Code
+            </h1>
+
+            <input class="
+                        w-full
+                        my-3
+                        p-2
+                        rounded-lg
+                        text-base
+                        outline-none
+                        border-2
+                        border-skin-borderColor" type="text" id="qr-text" placeholder="Type your text or url">
+            <div class="flex justify-between">
+                <label class="
+                            text-skin-textColor
+                            text-xl" for="sizes">Select Size:</label>
+            <select class="
+                            p-2
+                            rounded-lg
+                            text-base
+                            outline-none
+                            border-2
+                            border-skin-borderColor" id="sizes">
+                <option value="100">100*100</option>
+                <option value="200">200*200</option>
+                <option value="300">300*300</option>
+            </select>
+            </div>
+        </div>
+        <div class="
+                    qr-body
+                    p-5
+                    grid
+                    place-items-center
+                    ">
+
+        </div>
+        <div class="
+                    qr-footer
+                    flex
+                    justify-center">
+
+            <a class="bg-white
+                        text-xl
+                        px-8
+                        py-2
+                        rounded-lg
+                        mr-1.5" href="" id="generateBtn">
+
+                Generate
+
+            </a>
+
+            <a class="bg-white
+                        text-xl
+                        px-8
+                        py-2
+                        rounded-lg
+                        mr-1.5" href="" id="downloadBtn" download="QR_Code.png">
+                
+                Download
+
+            </a>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+</body>
+</html>
+</body>
+</html>
